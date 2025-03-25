@@ -1,9 +1,11 @@
 ---
-title: 'Exploring Technology Trends'
-description: 'An overview of the latest innovations in technology'
-pubDate: 'Jun 15 2024'
-heroImage: '/blog-placeholder-3.jpg'
-tags: ['technology', 'innovation']
+title: Exploring Technology Trends
+description: An overview of the latest innovations in technology
+pubDate: Jun 15 2024
+heroImage: /blog-placeholder-3.jpg
+tags:
+  - technology
+  - innovation
 ---
 
 Technology continues to evolve at an unprecedented rate, introducing new possibilities and reshaping industries. Artificial Intelligence (AI) is no longer a futuristic concept but a practical tool enhancing efficiency across various sectors. Blockchain technology promises a new level of security and transparency in digital transactions, while the Internet of Things (IoT) connects millions of devices, improving data collection and automation. These innovations not only drive economic growth but also present new challenges in data privacy and cybersecurity.

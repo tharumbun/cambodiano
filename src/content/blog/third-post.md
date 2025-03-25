@@ -1,9 +1,12 @@
 ---
-title: 'The Future of Renewable Energy'
-description: 'Insights into the advancements in renewable energy technologies'
-pubDate: 'Jun 25 2024'
-tags: ['sustainability', 'energy', 'future']
-heroImage: '/blog-placeholder-2.jpg'
+title: The Future of Renewable Energy
+description: Insights into the advancements in renewable energy technologies
+pubDate: Jun 25 2024
+tags:
+  - sustainability
+  - energy
+  - future
+heroImage: /blog-placeholder-2.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.

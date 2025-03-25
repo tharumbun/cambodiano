@@ -1,24 +1,32 @@
-import { defineConfig } from 'astro/config'
-import mdx from '@astrojs/mdx'
-import sitemap from '@astrojs/sitemap'
+import { defineConfig } from 'astro/config';
+import mdx from '@astrojs/mdx';
+import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
 
-import tailwind from '@astrojs/tailwind'
-
-// https://astro.build/config
 export default defineConfig({
-    site: 'https://example.com',
-    integrations: [mdx(), sitemap(), tailwind()],
-    markdown: {
-        shikiConfig: {
-          // Choose from Shiki's built-in themes (or add your own)
-          // https://shiki.style/themes
-          // Alternatively, provide multiple themes
-          // See note below for using dual light/dark themes
-          themes: {
-            light: 'poimandres',
-            dark: 'catppuccin-latte',
-          },
-        },
+  site: 'https://example.com',
+  integrations: [mdx(), sitemap(), tailwind()],
+  markdown: {
+    // 1) Add the remark plugin
+    remarkPlugins: [
+      function removeFirstH1() {
+        return function (tree) {
+          // if the first node is an H1, remove it
+          if (
+            tree.children?.[0]?.type === 'heading' &&
+            tree.children[0].depth === 1
+          ) {
+            tree.children.shift(); // remove the heading node
+          }
+        };
       },
-    
-})
+    ],
+    // 2) Shiki config remains the same
+    shikiConfig: {
+      themes: {
+        light: 'poimandres',
+        dark: 'catppuccin-latte',
+      },
+    },
+  },
+});
