@@ -1,6 +1,13 @@
-# Life aspirations & north stars
-#area/northstar
-#status/launching
+---
+title: Life aspirations & north stars
+tags:
+  - 'area/northstar](/tags/area%2Fnorthstar)'
+  - 'status/launching](/tags/status%2Flaunching)'
+description: ''
+pubDate: '2025-03-28'
+---
+[#area/northstar](/tags/area%2Fnorthstar)
+[#status/launching](/tags/status%2Flaunching)
 
 This is a collection of big, heavy, ambitious goals that I like to set myself. These are aspirations that I would like to happen at some point in my life.
 
