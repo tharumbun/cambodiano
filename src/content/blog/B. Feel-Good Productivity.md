@@ -1,23 +1,14 @@
----
-title: B. Feel-Good Productivity
-tags:
-  - area/bookshelf
-description: ''
-pubDate: '2025-03-28'
----
-
+# B. Feel-Good Productivity
+#area/bookshelf #publish
 
 Author: Ali Abdaal
-
 URL: [https://a.co/d/hj71LGc](https://a.co/d/hj71LGc)
-
 Created time: February 3, 2024
 
-> [!NOTE] Synopsis
-
+> **Synopsis**
 > Feel-Good Productivity is a framework for shaping the way you view work, life, and fun. It emphasizes happiness as the key to success, not the other way around. It is broken into 3 parts. The first explores 3 energizers play, power, and people. The second highlights blockers: uncertainty, fear, and inertia. The third examines 3 sustainers: conserve, recharge, and align to overcome the three types of burnout: overexertion, depletion, and misalignment. Each part proposes 6 simple experiments to put these insights into action.
 
- 🔋 Part 1: Energizers
+### 🔋 Part 1: Energizers
 
 1. **Play**: If you want to achieve more without ruining your life, the first step is to approach your work with a sense of play
    1. Approach things with a sense of adventure
@@ -32,7 +23,7 @@ Created time: February 3, 2024
    2. Try asking: what can I do to brighten someone else’s day?
    3. When you think you’ve communicated too much, you probably haven’t communicated enough
 
- ⏹️ Part 2: Blockers
+### ⏹️ Part 2: Blockers
 
 1. **Seek Clarity**: the unblock method is about establishing what’s really blocking your good mood – and finding a way to eliminate it
    1. To gain clarity about what you’re actually doing. That involves asking ‘why?’ and then using this to figure out your ‘how’. Next, ask ‘what?’.
@@ -48,7 +39,7 @@ Created time: February 3, 2024
    2. Define your next step and track your progress
    3. The final step is the kindest: creating systems that can help you support yourself long-term. Above all, cut yourself some slack and celebrate the small wins.
 
- 🌱 Part 3: Sustainers
+### 🌱 Part 3: Sustainers
 
 1. **Conserve:** If you can make yourself feel better, you won’t just achieve more – you’ll last longer, too
    1. Our first kind of burnout arises from overexertion. The solution: do less.
@@ -64,3 +55,5 @@ Created time: February 3, 2024
    2. Look to your long-term future.
    3. Think about your medium-term future. Then ask yourself: what does that 12-month celebration mean for my actions this week?
    4. Last, you should be ready to think about your short-term future. Because the good news is, you can take a step to alignment right now.
+
+

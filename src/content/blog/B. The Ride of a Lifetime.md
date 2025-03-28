@@ -1,26 +1,7 @@
----
-title: B. The Ride of a Lifetime
-tags:
-  - area/bookshelf
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-  - '##'
-description: ''
-pubDate: '2025-03-28'
----
- 
+# B. The Ride of a Lifetime
+#area/bookshelf #publish
 
- 10 Principles
+### 10 Principles
 
 1. Optimism - people don’t like working with pessimists
 2. Courage - fear of failure destroys creativity
@@ -37,17 +18,17 @@ pubDate: '2025-03-28'
 
 # Part 1: Learning
 
- Starting at the bottom
+### Starting at the bottom
 
 - Create space every day for your thoughts to wander beyond immediate responsibilities
 - Relentless pursuit of perfection
    - Not “perfect at all costs” but refusal to accept mediocrity
 
- Betting on talent
+### Betting on talent
 
 - Optimism has the power to shift perspective from catastrophe to a complex puzzle
 
- Know what you don’t know (and trust what you do)
+### Know what you don’t know (and trust what you do)
 
 - A delicate balance between executive management and how you negotiate with creatives is key - it comes down to respect
 
@@ -55,46 +36,46 @@ pubDate: '2025-03-28'
 
 - If you want innovation, ::you need to give permission to fail::
 
- Chapter 6
+### Chapter 6
 
 - Optimism in a leader, especially in challenging times, is vital
 - People need to feel confident in focusing on their tasks not defending their position
 
- Chapter 7
+### Chapter 7
 
 - You have to convey your priorities clearly, and it impacts time energy and capital all around as
 - No more than 3
 
- Chapter 8
+### Chapter 8
 
 - Approaching toxic situations with respect can provide a very different perspective
 - Don’t let your ego get in the way of doing the right thing
 
- Chapter 10
+### Chapter 10
 
 - Always surround yourself with people that are good, not just good at their job
 - When there is a lapse you must act immediately
 
- Chapter 11
+### Chapter 11
 
 - In negotiation, you must state your goal and intentions up front and clearly, never say or give something up simply because someone wants to hear it
 
- Chapter 12
+### Chapter 12
 
 - “If something doesn’t feel right to you, then it’s probably not right for you” - Tom Murphy
 - Being present for your people as a leader is vital for morale
 - When you innovate, everything needs to change not just how you make / deliver a product
 
- Chapter 13
+### Chapter 13
 
 - A company’s integrity depends on the integrity of its people
 - Nothing is more important than your company’s quality and integrity
 
- Chapter 14
+### Chapter 14
 
 - The trick of leadership is to hold onto who you always were to a degree even while the world tries to inflate your title / power / ego
 
- Chapter 15
+### Chapter 15
 
 - To tell great stories you need great talent
 - Innovate or die, there can be no innovation if you operate out of fear of the new
@@ -127,3 +108,5 @@ pubDate: '2025-03-28'
 - Most deals are personal, be aware at what’s at stake for the other person
 - It’s not good to have power for too long - your voice becomes too loud even to the leaders around you
 - Hold on to your awareness of self
+
+
