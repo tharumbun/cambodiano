@@ -30,8 +30,8 @@ files.forEach((file) => {
   const tagMatches = content.match(/\B#(\S+)/g) || [];
   // Remove the '#' and filter out any tag that equals "publish" (case-insensitive)
   const extractedTags = tagMatches
-    .map((tag) => tag.slice(1))
-    .filter((tag) => tag.toLowerCase() !== 'publish');
+  .map((tag) => tag.slice(1).trim())
+  .filter((tag) => tag !== '' && tag.toLowerCase() !== 'publish');
 
   // 3. Merge with any existing tags in front matter, or assign if missing.
   //    (If you want to combine, uncomment the next line instead.)
