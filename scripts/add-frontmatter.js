@@ -1,4 +1,3 @@
-// scripts/add-frontmatter.js
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
@@ -9,51 +8,50 @@ const files = fs.readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md'));
 files.forEach((file) => {
   const fullPath = path.join(BLOG_DIR, file);
   const raw = fs.readFileSync(fullPath, 'utf8');
-  const parsed = matter(raw);
+  let { data, content } = matter(raw);
 
-  // Separate front matter data from the content
-  let { content } = parsed;
-  let newTitle = parsed.data.title || path.basename(file, '.md');
+  // 1) Normalize weird Unicode slash/spaces
+  content = content
+    .normalize('NFC')
+    .replace(/[\u200B-\u200D\uFEFF]/g, '')  // remove zero-width
+    .replace(/[\u2044\u2215]/g, '/');       // fraction slash -> ASCII slash
 
-  // 1) Promote the first line (# Heading) to front matter title if it exists
-  const lines = content.split('\n');
-  const firstLine = lines[0].trim();
-  if (firstLine.startsWith('# ')) {
-    newTitle = firstLine.replace(/^#\s+/, '');
-    lines.shift();
-    content = lines.join('\n').trim();
+  // 2) Promote first line (# Title) if no frontmatter title
+  if (!data.title) {
+    const lines = content.split('\n');
+    const firstLine = lines[0].trim();
+    if (firstLine.startsWith('# ')) {
+      data.title = firstLine.slice(2); // remove "# "
+      lines.shift();
+      content = lines.join('\n').trim();
+    }
   }
 
-  // 2) Convert inline #tags => [#tag](/tags/tag),
-  //    but only if not already preceded by “[” (which would mean it's already linked).
-  content = content.replace(/\B#(\S+)/g, (fullMatch, tagName, offset, entireString) => {
-    // Check the character before the “#”
-    const precedingChar = entireString[offset - 1];
-    // If there's a “[” immediately before the #, skip (already linked).
-    if (precedingChar === '[') {
-      return fullMatch;
-    }
-    // Otherwise, linkify
-    return `[${fullMatch}](/tags/${encodeURIComponent(tagName)})`;
+  // 3) Convert #tag -> link only if not already linked
+  content = content.replace(/\B#(\S+)/g, (match, tagName, offset, str) => {
+    // If there's a "[" right before it, skip (already linkified)
+    if (str[offset - 1] === '[') return match;
+    return `[${match}](/tags/${encodeURIComponent(tagName)})`;
   });
 
-  // 3) Extract tags for front matter by scanning #tag in the final content
-  const tagMatches = content.match(/\B#(\S+)/g);
-  const extractedTags = tagMatches ? tagMatches.map(t => t.slice(1)) : [];
-  // Use existing front matter tags if present; otherwise use extracted
-  const tags = parsed.data.tags || extractedTags;
+  // 4) Build or merge tags in front matter if desired
+  if (!data.tags) {
+    const newTags = [];
+    // find all #something in final content
+    const matches = content.match(/\B#(\S+)/g);
+    if (matches) {
+      for (const t of matches) {
+        newTags.push(t.slice(1)); // remove "#"
+      }
+    }
+    data.tags = newTags;
+  }
 
-  // 4) Merge final front matter data
-  const data = {
-    ...parsed.data,
-    title: newTitle,
-    description: parsed.data.description || '',
-    pubDate: parsed.data.pubDate || new Date().toISOString().split('T')[0],
-    tags,
-  };
+  // 5) Final data
+  data.description ||= '';
+  data.pubDate ||= new Date().toISOString().split('T')[0];
 
-  // 5) Write the updated file
   const updated = matter.stringify(content, data);
   fs.writeFileSync(fullPath, updated, 'utf8');
-  console.log(`Updated: ${file} (title: "${newTitle}", tags: ${JSON.stringify(tags)})`);
+  console.log(`Updated file: ${file}, final title: "${data.title}"`);
 });
