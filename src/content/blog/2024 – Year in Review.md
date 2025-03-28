@@ -1,11 +1,5 @@
----
-title: 2024 – Year in Review
-tags:
-  - type/reflection
-description: ''
-pubDate: '2025-03-28'
----
- 
+# 2024 – Year in Review
+#type/reflection #publish
 
 > # Consistency and Intentionality
 
@@ -13,7 +7,7 @@ pubDate: '2025-03-28'
 
 ![](2024%20%E2%80%93%20Year%20in%20Review/Image.png)
 
- **Relationships: Cultivating Connection**
+## **Relationships: Cultivating Connection**
 
 We prioritized deepening our relationships through small but impactful habits:
 
@@ -34,7 +28,7 @@ In May, we visited my brother and sister-in-law in Franklin and got to spend tim
 
 ![](2024%20%E2%80%93%20Year%20in%20Review/Image%20%285%29.png)
 
- **Work: Growth and Alignment**
+## **Work: Growth and Alignment**
 
 Professionally, 2024 was a year of exciting growth and intentional decision-making:
 
@@ -49,7 +43,7 @@ Professionally, 2024 was a year of exciting growth and intentional decision-maki
 
 We stayed true to our values by saying "no" to projects that didn’t align with our goals or bring joy.
 
- Health: Strengthening Mind and Body
+## Health: Strengthening Mind and Body
 
 We made consistent health a priority this year:
 
@@ -60,7 +54,7 @@ We made consistent health a priority this year:
 - **Reading:** Completing ~~20~~ [*16* books](https://www.goodreads.com/user/year_in_books/2024/166896422) expanded our minds and provided valuable lessons.
 - **Volunteering:** Quarterly volunteer work helped us stay connected to our community and give back intentionally. I took on a few pro-bono design projects from family and friends.
 
- **Creativity and Personal Fulfillment**
+## **Creativity and Personal Fulfillment**
 
 Rediscovering my love for photography and videography was a highlight. I purchased a new camera, marking a return to a passion I had to put aside years ago when we moved.
 
@@ -68,7 +62,7 @@ Rediscovering my love for photography and videography was a highlight. I purchas
 
 ![](2024%20%E2%80%93%20Year%20in%20Review/Image%20%2810%29.png)
 
- **Finances and New Ventures**
+## **Finances and New Ventures**
 
 We closed out the year with exciting new ventures:
 
@@ -81,7 +75,7 @@ We closed out the year with exciting new ventures:
 
 These ventures represent our broader goal of creating financial flexibility and exploring new opportunities.
 
- **Adventures and Memories**
+## **Adventures and Memories**
 
 - **Miami Weekend:** In February, we enjoyed a quick getaway to Miami, which was a refreshing change of pace.
 

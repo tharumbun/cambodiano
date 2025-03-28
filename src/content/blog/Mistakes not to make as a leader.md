@@ -1,13 +1,7 @@
----
-title: Mistakes not to make as a leader
-tags:
-  - area/leadership
-  - status/beacon
-description: ''
-pubDate: '2025-03-28'
----
+# Mistakes not to make as a leader
 
- 
+#area/leadership
+#status/beacon #publish
 Date Created: 2018-02-11
 
 ---
@@ -36,7 +30,7 @@ Date Created: 2018-02-11
 20. Practice perspective: use it for scalability (view it from God’s pov) and use it for sympathy/empathy
 21. Don't forget to live in the moment, it's ok to not always push for what's next
 
- Synthesis:
+### Synthesis:
 
 These core principles can be synthesized into overarching themes:
 
@@ -47,3 +41,5 @@ These core principles can be synthesized into overarching themes:
 - **Balanced and Wise Decision-Making**: Using wisdom, maintaining perspective, and being adaptable to change.
 - **Effective Communication**: Engaging in direct, immediate communication to resolve issues and ensure clarity.
 - **Presence and Future Focus**: Balancing living in the moment with planning for the future, and being adaptable to spontaneity.
+
+
