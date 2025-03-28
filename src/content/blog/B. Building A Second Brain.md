@@ -1,5 +1,11 @@
-# B. Building A Second Brain
-#area/bookshelf
+---
+title: B. Building A Second Brain
+tags:
+  - area/bookshelf
+description: ''
+pubDate: '2025-03-28'
+---
+
 
 By Tiago Forte
 
@@ -150,7 +156,4 @@ Express, show your work
    11. Assess notetaking proficiency
    12. Join the PKM community online
 - Chase what excites you
-
-#publish
-
 

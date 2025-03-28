@@ -1,5 +1,11 @@
-# B. Show Your Work
-#area/bookshelf
+---
+title: B. Show Your Work
+tags:
+  - area/bookshelf
+description: ''
+pubDate: '2025-03-28'
+---
+
 
 *10 ways to share your creativity and get discovered*
 
@@ -9,7 +15,7 @@ It’s not about finding an audience, they will find you… but you need to be f
 
 ---
 
-1. ### You don’t have to be a genius
+1.  You don’t have to be a genius
 - **::Senius::** - a collection of talented individuals that support each other by contributing and stealing ideas
    - It’s about what you contribute, not how talented or smart you are
 
@@ -21,7 +27,7 @@ It’s not about finding an audience, they will find you… but you need to be f
 
 ---
 
-2. ### Think process, not product
+2.  Think process, not product
 - Take people behind the scenes
    - Connect with people while you build not at the end
 - Put things out there consistently to reveal more of yourself
@@ -32,7 +38,7 @@ It’s not about finding an audience, they will find you… but you need to be f
 
 ---
 
-3. ### Share something small everyday
+3.  Share something small everyday
 - **::Daily dispatch::**: Review your work each day and identify one piece you can share
    - Early on —> share inspiration
    - Middle —> share methods
@@ -44,7 +50,7 @@ It’s not about finding an audience, they will find you… but you need to be f
 
 ---
 
-4. ### Open up your cabinet or curiosities
+4.  Open up your cabinet or curiosities
 - Cherish your influences
    - it reveals more about you and people can be interested in what interests you
    - [Ira Glass quote](https://www.goodreads.com/author/quotes/113989.Ira_Glass#:~:text=All%20of%20us%20who%20do,has%20potential%2C%20but%20it's%20not.)
@@ -56,7 +62,7 @@ It’s not about finding an audience, they will find you… but you need to be f
 
 ---
 
-5. ### Tell good stories
+5.  Tell good stories
 - How you present something deeply affects how people feel about its
    - Your work doesn’t speak for itself
    - People want to know how things are made, where they came from, and who made them do
@@ -71,7 +77,7 @@ It’s not about finding an audience, they will find you… but you need to be f
 
 ---
 
-6. ### Teach what you know
+6.  Teach what you know
 - Keeping what you know to yourself is bad sportsmanship, **::sharing is freeing::**
    - Learning isn’t knowing and in most cases brings you more business not less
 - What in your process could help someone else? Teach them what they want to know
@@ -80,10 +86,7 @@ It’s not about finding an audience, they will find you… but you need to be f
 
 ---
 
-8. ### Don’t turn into human spam
+8.  Don’t turn into human spam
 
 ---
-
-#publish
-
 

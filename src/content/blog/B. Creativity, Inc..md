@@ -1,9 +1,18 @@
-# B. Creativity, Inc.
-Area: #area/bookshelf
+---
+title: 'B. Creativity, Inc.'
+tags:
+  - area/bookshelf
+  - keyword/creativity
+  - keyword/culture
+  - status/beacon
+description: ''
+pubDate: '2025-03-28'
+---
+Area: 
 
-Keywords: #keyword/creativity #keyword/culture
+Keywords:  
 
-Status: #status/beacon
+Status: 
 
 Date Created: 2024-02-11
 
@@ -34,18 +43,18 @@ Only when we admit what we don’t know can we ever hope to learn it
 
 # **Part 1: Getting Started**
 
-## **Chapter 1: Animated**
+ **Chapter 1: Animated**
 
 - In the creative process, job titles and hierarchy are meaningless
 - To create a fertile laboratory, you need to assemble different kinds of thinkers and then encourage their autonomy. Offer feedback when needed but stand back and give them room
 
-## **Chapter 2: Pixar is Born**
+ **Chapter 2: Pixar is Born**
 
 - Any hard problem should have many good minds trying to solve it simultaneously
 - Pixer + Radar = Pixar
 - For all the care you put into the artistry, visual polish frequently doesn’t matter if you’re getting the story right
 
-## **Chapter 3: A Defining Goal**
+ **Chapter 3: A Defining Goal**
 
 - Give ownership of and responsibility for a product’s quality to the people most involved in its creation
 - Instead of a repeating an action, workers can suggest changes, call our problems, and feel the pride that comes when they fix what was broken
@@ -61,7 +70,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 - Anyone should be able to talk with anyone else at any time without any fear of reprimand
 - The act of thinking about the problem and responding to it is invigorating and rewarding
 
-## **Chapter 4: Establishing Pixar’s Identity**
+ **Chapter 4: Establishing Pixar’s Identity**
 
 - 2 original principles: Story is king and Trust the process
 - Simply repeating ideas isn’t enough, you must take ownership and live out those ideas
@@ -84,7 +93,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 
 # Part 2: Protecting the new
 
-## **Chapter 5: Honesty & Candor**
+ **Chapter 5: Honesty & Candor**
 
 - Candor is key and building a culture for candor to be unhindered is the goal
 - The Braintrust
@@ -97,7 +106,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 - It’s harder to figure out what’s actually wrong rather than finding the right solution
 - The key is to looking at the viewpoints being offered as additive not competitive
 
-## **Chapter 5: Continued**
+ **Chapter 5: Continued**
 
 - What’s a good note for feedback?
 - Offered a timely moment, not too late
@@ -111,7 +120,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 - Make you think smarter
 - Put lots on the table in a short period of time
 
-## **Post Script**
+ **Post Script**
 
 - There is not a single group that make up the Braintrust, it’s a type of meeting run in certain way
 1. Everyone must view each other in the room as equals, everyone has insight
@@ -134,7 +143,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 1. The two day intensive helps everyone stay fresh without reverting to the original structure
 2. Everyone is on the same page
 
-## **Chapter 6: Fear of failure**
+ **Chapter 6: Fear of failure**
 
 - The politics of failure can impede your progress. To determine
 - What happens when a failure is discovered?
@@ -171,7 +180,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 1. It gives you a new place to go in your head
 2. Once you’ve worked on one for a while you can switch back to the other idea with some distance
 
-## Chapter 7: The Hungry Beast and the Ugly Baby
+ Chapter 7: The Hungry Beast and the Ugly Baby
 
 - Protect the new (ugly babies) from people who don’t understand that greatness can emerge from not-so-greatness so that the economic engine (the beast) does not trample it
 - How to hold off the beast?
@@ -184,7 +193,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 - Knowing when to green light is different every time
 - [Anton Ego](https://m.imdb.com/name/nm0000564/?ref_=ttqu_qu): In many ways, the work of a critic is easy. We risk very little, yet enjoy a position over those who offer up their work and their selves to our judgment. We thrive on negative criticism, which is fun to write and to read. But the bitter truth we critics must face, is that in the grand scheme of things, the average piece of junk is probably more meaningful than our criticism designating it so. But there are times when a critic truly risks something, and that is in the discovery and defense of the *new*. The world is often unkind to new talent, new creations. The new needs friends
 
-## Chapter 8: Change & Randomness
+ Chapter 8: Change & Randomness
 
 - Unpredictableness is the ground on which creativity occurs
 - Tricks for solving resistance to change
@@ -208,7 +217,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 - Create a response structure that matches the problem structure
 - Communicate the role people should play and the values of the company, but do not prescribe their solution
 
-## Chapter 9: The Hidden
+ Chapter 9: The Hidden
 
 - If you don’t try to uncover what is unseen and understand its nature you will be ill prepared to lead
 - Everyone has blind spots often rooted in human interaction, and access to information does not remain unchanged the higher you go (people exhibit their best to their boss)
@@ -235,7 +244,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 
 # Part 3: Building and sustaining
 
-## Chapter 10: Broadening Our View
+ Chapter 10: Broadening Our View
 
 - Our models of the world distort what we perceive to the point where it’s hard to see what’s right in front of us
 - We don’t typically see the boundary between new information coming in and our existing models
@@ -290,7 +299,7 @@ Only when we admit what we don’t know can we ever hope to learn it
 1. Challenge yourself to learn new things constantly
 2. Don’t let the fear of judgement hinder creativity, be open to everything because what do you have to lose
 
-## Chapter 11: The Unmade Future
+ Chapter 11: The Unmade Future
 
 - At the start of a creative project our mental models are all we have so it is key to construct one that’s sustains you.
 - “the best way to predict the future is to make it. “
@@ -307,24 +316,24 @@ Only when we admit what we don’t know can we ever hope to learn it
 
 # Part 4: Testing what we know
 
-## Chapter 12: A New Challenge
+ Chapter 12: A New Challenge
 
 - Timidity won’t make an organization great, innovation will
 - Approach change as inspiration not intimidation
 
-## Chapter 13
+ Chapter 13
 
 - notes day and developing notes day internally not outsourcing
 - Personal project days twice a month
 
-## Chapter 14
+ Chapter 14
 
 - Pirate + peer (network between lower level positions and heads of departments)
 - There’s a delicate balance between the need to make timely decisions and the need to listen and consider the ideas of your people
 - Seek out the people that have a gripe, figure out what’s causing their problem
 - Everyone should feel they can speak their mind and feel heard
 
-## Chapter 15: Incorporating Creativity
+ Chapter 15: Incorporating Creativity
 
 - Aphantasia & hyperphantasia
 - Approach your impact on an organization by how well you connect with others (not where your work begins and another’s ends)
@@ -374,7 +383,7 @@ True conflict is usually personal
 
 Creativity demands that you never stop peeling.
 
-## Starting points
+ Starting points
 
 Thoughts for managing a creativity culture
 
@@ -383,7 +392,4 @@ Thoughts for managing a creativity culture
 3. Always try to hire people that are smarter than you
 4. If there are people in your organization who feel they are not free to suggest ideas, you lose. Do not discount ideas from unexpected sources
 5. There are any number of ideas why candor isn’t flowing, your job is to dissect those reasons
-
-#publish
-
 
