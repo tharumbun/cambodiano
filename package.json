@@ -13,10 +13,10 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.8.1",
-    "@astrojs/markdown-remark": "^3.0.0",
     "@astrojs/rss": "^4.0.7",
     "@astropub/icons": "^0.2.0",
     "@nuxt/components": "^2.2.1",
+    "astro": "^5.5.4",
     "astro-iconify": "^1.2.0",
     "astro-navbar": "^2.3.2",
     "clsx": "^2.1.1",
@@ -29,7 +29,6 @@
     "@astrojs/mdx": "^4.2.1",
     "@astrojs/sitemap": "^3.3.0",
     "@astrojs/tailwind": "^6.0.1",
-    "astro": "^5.5.4",
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3",
     "unist-util-visit": "^5.0.0"
