@@ -1,9 +1,0 @@
-[build]
-  command = "npm run fix-frontmatter && npm run fix-links && npm run build"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "18"
-
-[build.lifecycle]
-  onBuild = "chmod +x scripts/*.js" 

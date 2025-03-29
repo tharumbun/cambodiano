@@ -1,53 +1,77 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import RecentPublications from "../components/RecentPublications.astro";
+import { Header } from '@components/misc';
+import { BaseHead } from '@components/seo';
+import { products, SITE_TITLE } from '@data/index';
+import { SITE_DESCRIPTION, socialLinks } from '@data/index';
+import RootLayout from '@layouts/root-layout.astro';
 ---
 
 <!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <body class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300" >
-    <Header />
-    <main class="flex flex-col justify-center">
-      <div class="px-4 md:px-2 flex flex-col gap-4 md:my-10">
-        <h1 class="text-2xl md:text-5xl w-full">Welcome to My Digital Garden</h1>
-          <p class="w-full text-justify text-base md:text-lg">
-            This is my public notebook—a space where I grow ideas in the open.
-            It’s part journal, part zine, part map. Some thoughts are half-formed,
-            others are more rooted. Nothing here is final, and that’s the point.
-          </p>
-          <h2>🪐 Topics I’m Exploring</h2>
-          <ul>
-            <li><strong>northstar</strong> – guiding values and long-term direction</li>
-            <li><strong>reflections</strong> – personal insights and moments of clarity</li>
-            <li><strong>bookshelf</strong> – quotes, notes, and thoughts on what I’m reading</li>
-            <li><strong>spiritual</strong> – musings on meaning, mystery, and faith</li>
-            <li><strong>leadership</strong> – thoughts on influence, management, and people</li>
-            <li><strong>productivity</strong> – systems, habits, and doing better work</li>
-            <li><strong>travel</strong> – memories and learnings from the places I’ve been</li>
-            <li><strong>ux</strong> – product design, strategy, and user-centered thinking</li>
-          </ul>
+<html lang='en'>
+	<head>
+		<BaseHead
+			title={SITE_TITLE}
+			description={SITE_DESCRIPTION}
+			image='/images/ogimage.png'
+		/>
+	</head>
 
-          <h2>🚀 Note Status Tags</h2>
-          <p>Ideas here are tagged based on how developed they are:</p>
-          <ul>
-            <li><strong>Launching</strong> 🚀 – early thoughts, mostly raw and exploratory</li>
-            <li><strong>Orbiting</strong> 🛰 – in development, with growing depth and connections</li>
-            <li><strong>Beacon</strong> 🌠 – established ideas that guide and anchor other notes</li>
-          </ul>
-          <p>
-            Some ideas change, merge, or get retired. But all of them reflect
-            what I’m thinking about right now.
-          </p>
-      </div>
-	  <RecentPublications />
-	      </main>
-    <Footer />
-  </body>
+	<RootLayout>
+		<div
+			id='navbar+title'
+			class='flex flex-col w-full gap-6 max-w-xl lowercase'>
+			<Header />
+			<h1
+				class='w-full text-start text-[min(12vw,72px)] font-medium leading-[0.9] tracking-[-2px] sm:tracking-[-4px]'>
+				a digital garden<br>
+				<span class='text-gray-500 dark:text-gray-400'>in internet space</span>
+			</h1>
+
+			<div
+				id='about'
+				class='flex flex-col gap-4'>
+				<div class='font-medium text-lg text-gray-700 dark:text-gray-400'>
+					This is my public notebook—a space where I grow ideas in the open. Some thoughts are half-formed, others are more rooted. Nothing here is final, and that’s the point.
+				</div>
+
+				<div class='font-medium text-lg text-gray-700 dark:text-gray-300'>
+					<h3 class="text-2xl font-bold">Note Status Tags</h3>
+					<p>Ideas here are tagged based on how developed they are:</p>
+					<div class='flex flex-wrap gap-2 mt-5'>
+						{
+							products.map((product) => (
+								<a
+									href={product.url}
+									target='_blank'
+									class='p-2 rounded-full gap-2 flex-wrap hover:rotate-1 hover:scale-105 transition-all duration-300 flex items-center justify-center bg-gray-100 hover:bg-gray-200 dark:bg-[#1F1F1F] dark:hover:bg-[#2F2F2F]'>
+									<span>
+										{product.image}
+									</span>
+									<span class='mr-2'>{product.name}</span>
+								</a>
+							))
+						}
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<img src="src/pages/desk.svg" />
+			</div>
+
+			<div
+				id='social-links'
+				class='flex flex-row gap-4'>
+				{
+					socialLinks.map((link) => (
+						<a
+							href={link.url}
+							class='text-lg font-medium text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 hover:underline underline-offset-2'>
+							{link.label}
+						</a>
+					))
+				}
+			</div>
+		</div>
+	</RootLayout>
 </html>
-

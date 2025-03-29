@@ -1,47 +1,59 @@
-html {
-    font-family: 'Reddit Mono', monospace;
-    width: 100%;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
 
-a:hover {
-    text-decoration: underline;
-}
+  body {
+    font-family: 'UncutSans', sans-serif;
+    @apply bg-white text-black dark:bg-black dark:text-white;
+  }
 
-article a {
-    color: inherit;
-    text-decoration: none;
-    background: linear-gradient(to top, #685cc650 60%, transparent 60%);
-}
-body > main > ul > li > a,
-body > main > article > div:nth-child(5) > ul > li > a {
-    color: white;
-    text-decoration: none;
-    padding: 4px 8px;
-    border-radius: 999px;
-    background: #685cc6;
-}
-body > main > ul > li > a:hover,
-body > main > article > div:nth-child(5) > ul > li > a:hover {
-    background: #685cc650;
-    color: #685cc6;
-    text-decoration: none
-}
-img {
-    @apply rounded-lg;
-    max-width: 100%;
-    height: auto;
-}
-body > header {
-    margin-bottom: 0 !important;
-}
-.post-wrap {
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    overflow: clip;
+
+  @font-face {
+    font-family: 'UncutSans';
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff2/UncutSans-Bold.woff2') format('woff2');
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff/UncutSans-Bold.woff') format('woff');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'UncutSans';
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff2/UncutSans-Semibold.woff2') format('woff2');
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff/UncutSans-Semibold.woff') format('woff');
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: 'UncutSans';
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff2/UncutSans-Medium.woff2') format('woff2');
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff/UncutSans-Medium.woff') format('woff');
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: 'UncutSans';
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff2/UncutSans-Regular.woff2') format('woff2');
+    src:
+      local('UncutSans'),
+      url('/fonts/uncut/woff/UncutSans-Regular.woff') format('woff');
+    font-weight: 400;
+  }
 }
