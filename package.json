@@ -3,13 +3,13 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev --host",
+    "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "fix-frontmatter": "node ./scripts/add-frontmatter.js",
-    "fix-links": "node ./scripts/fix-links.js"
+    "fix-frontmatter": "scripts/add-frontmatter.js",
+    "fix-links": "scripts/fix-links.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.8.1",
