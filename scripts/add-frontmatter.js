@@ -38,7 +38,7 @@ files.forEach((file) => {
       (tag) =>
         tag !== '' &&
         /[A-Za-z0-9]/.test(tag) && // must contain at least one letter or digit
-        tag.toLowerCase() !== 'publish'
+        tag.toLowerCase() !== 'status/publish'
     );
 
   // 3. Merge with any existing tags in front matter or assign if missing.

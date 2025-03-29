@@ -1,5 +1,11 @@
-# Christmas Movie List
-#publish #status/launching
+---
+title: Christmas Movie List
+tags:
+  - status/launching
+description: ''
+pubDate: '2025-03-29'
+---
+ 
 
 - Arthur Christmas
 - 8-bit Christmas
@@ -8,5 +14,3 @@
 - Home Alone
 - Santa Clause
 - Klaus
-
-
