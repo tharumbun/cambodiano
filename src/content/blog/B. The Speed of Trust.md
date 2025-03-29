@@ -1,21 +1,13 @@
----
-title: B. The Speed of Trust
-tags:
-  - area/bookshelf
-description: ''
-pubDate: '2025-03-29'
----
+# B. The Speed of Trust
+#area/bookshelf
 
-
->  **One line summary**
-
+> ### **One line summary**
 > Trust is the most valuable currency which shapes the culture, efficiency, and integrity of an organization through intentionality in every interaction.
 
->  **One paragraph summary**
-
+> ### **One paragraph summary**
 > Trust is the foundation for accountability, credibility, productivity and efficiency. It is the one thing everyone senses even if they can’t identify the source, they feel it. It is made up of many little - seemingly insignificant -  blocks because every moment is an opportunity for trust to flow. Trust is effervescent, it is the glue that holds people together who in turn hold organizations together. Trust can be steered - either positively (dividends) or negatively (taxes), restored, and leveraged for cultural growth. It is the responsibility of every leader to inspire trust. It is forged through a combination of character - the core of you are - and competence - built from integrity, intent, capabilities, and results.
 
- Intro notes
+### Intro notes
 
 - Trust Tax
 - Trust Dividend
@@ -25,7 +17,7 @@ pubDate: '2025-03-29'
 - “Preserve the core: character
 - Stimulate progress: competence”
 
- 5 waves of trust
+### 5 waves of trust
 1.	Self trust: confidence in ourselves = credibility
 2.	Relationship trust: increase trust accounts = consistent behavior
 3.	Organizational trust: trust across the business and teams = alignment
@@ -38,7 +30,7 @@ Restoring trust
 
 It’s possible to build and restore trust. “The best time to plant a tree is 20 years ago. The second best time is today”
 
- First Wave: Self-Trust
+### First Wave: Self-Trust
 
 4 cores of credibility
 1.	Integrity
@@ -106,7 +98,7 @@ The ability to communicate results is key
 2.	Expect to win - posture of positivity increases the odds
 3.	Finish strong
 
- Second wave: Relationship Trust
+### Second wave: Relationship Trust
 
 You can’t talk yourself out of a problem you’ve behaved yourself into (Stephen C) - but you can behave yourself out of a problem you’ve talked yourself into (Stephen R C)
 
@@ -146,7 +138,7 @@ Book Promises - Speed of Trust
 
 ![](B.%20The%20Speed%20of%20Trust/Image.png)
 
- Third Wave: Organizational Trust
+### Third Wave: Organizational Trust
 
 “Are ethics a matter of compliance or doing the right thing?”
 
@@ -184,7 +176,7 @@ Behave: contribute toward building trust
 6.	Better execution: it is better to have grade B strategy and grade A execution than the other way around
 7.	Heightened loyalty: people and customers stay longer with high trust companies
 
- Fourth Wave: Market Trust
+### Fourth Wave: Market Trust
 
 The principle of reputation
 
@@ -202,7 +194,7 @@ Companies can develop trust assets to ensure their reputation remains intact lby
 
 These assets grow when trust becomes a measurable and intentional component of their culture, relationships, and brand reputation.
 
- Fifth Wave: Societal Trust
+### Fifth Wave: Societal Trust
 
 The principle of contribution
 
@@ -224,7 +216,7 @@ Each wave is a result of the other.
 
 The success of big business and the wellbeing of the world have never been more closely linked… businesses cannot succeed in societies that fail.
 
- Extending smart trust
+### Extending smart trust
 
 Matrix
 
@@ -259,4 +251,7 @@ When others have violated your trust
 Broken trust can actually become a significant beginning.
 
 Propensity to trust
+
+#status/publish
+
 
