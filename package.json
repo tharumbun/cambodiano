@@ -16,6 +16,7 @@
     "@astrojs/markdown-remark": "^3.0.0",
     "@astrojs/rss": "^4.0.7",
     "@astropub/icons": "^0.2.0",
+    "@nuxt/components": "^2.2.1",
     "astro-iconify": "^1.2.0",
     "astro-navbar": "^2.3.2",
     "clsx": "^2.1.1",
