@@ -1,11 +1,10 @@
 ---
 title: 'PenhKyo, Year 2045'
 description: 'Nobody blinked. In this city, fiction reigned supreme'
-pubDate: 'Jun 15 2024'
+pubDate: 'May 4 2025'
 heroImage: '/blog-placeholder-3.jpg'
 tags: ['short fiction']
 ---
-**Title: *PenhKyo, Year 2045***
 
 In 2045, the shimmering skyline of PenhKyo gleamed with digital billboards flashing fantasy headlines: *“Aliens Approve New Street Food Trend”* … *“You Can Now Breathe Underwater—Just Believe”*. Nobody blinked. In this city, fiction reigned supreme.
 
